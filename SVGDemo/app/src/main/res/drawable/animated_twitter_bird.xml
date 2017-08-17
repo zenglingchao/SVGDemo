@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 慢慢展现 -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_twitter">
+    
+    <target
+        android:animation="@animator/animator_bird_path"
+        android:name="twitter"/>
+
+</animated-vector>

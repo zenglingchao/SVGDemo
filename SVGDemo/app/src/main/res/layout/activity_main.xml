@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zlc16901.svgdemo.MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical"
+      >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/animated_play_pause"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/animated_rigth_error"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:onClick="btnClick"
+          android:src="@drawable/animated_twitter_f"
+          android:background="@color/colorPrimary"
+          android:layout_marginTop="20dp"
+          />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/animated_twitter_bird"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/animated_star_path"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:onClick="btnClick"
+          android:src="@drawable/animated_android"
+          android:background="@color/colorPrimary"
+          android:layout_marginTop="20dp"
+          />
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:onClick="twitterClick"
+          android:src="@drawable/animated_heart_twitter"
+          android:background="@color/colorPrimary"
+          android:layout_marginTop="20dp"
+          />
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:onClick="twitterClick"
+          android:src="@drawable/animated_search_bar"
+          android:background="@color/colorPrimary"
+          android:layout_marginTop="20dp"
+          />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/animated_batman"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+       <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="btnClick"
+        android:src="@drawable/vector_daizy"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        />
+
+ </LinearLayout>
+
+</ScrollView>

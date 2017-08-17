@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="10"
+    android:viewportWidth="10">
+
+    <!--
+        vector_android:strokeWidth="0.3" 线段的宽度
+        vector_android:strokeColor="#fffefe" 线段的颜色
+        vector_android:fillColor=""填充的颜色
+
+        vector_android:trimPathEnd="0.7" 从开始绘制的百分比
+        vector_android:trimPathStart="0.8" 从开始隐藏的百分比
+
+        vector_android:strokeLineJoin="round" 线段连接处的模式
+
+        vector_android:strokeLineCap="round"
+     -->
+
+    <group
+        android:name="pathgroup"
+        android:pivotX="5"
+        android:pivotY="5"
+        >
+        <path
+            android:name="path"
+            android:strokeWidth="0.5"
+            android:strokeColor="#fffefe"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M 1,5 L3,8 M 3,8 L 8,2"/>
+    </group>
+
+</vector>
